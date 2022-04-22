@@ -534,7 +534,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-size: 32px;
+    font-size: 35px;
     width: 50px;
     height: 50px;
     margin-left: -25px;
@@ -645,7 +645,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     color: #575757!important;
 }
 
@@ -702,13 +702,20 @@ p {
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.4em;
     text-align: center;
+    font-weight: bold;
 }
 
 .text-center h2 {
     padding: 0 120px;
+}
+
+.title-portfolio h2 {
+    max-width: 480px;
+    margin: 35px auto;
+    padding: inherit;
 }
 
 h3 {
@@ -720,6 +727,7 @@ h3 {
 
 figure {
     color: #303030;
+    margin-top: 70px;
 }
 
 figure a:hover {
@@ -733,6 +741,10 @@ blockquote {
     text-align: center;
 }
 
+figcaption a {
+    text-decoration: underline;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -741,6 +753,7 @@ blockquote {
 
 h1 {
     color: #333333!important;
+    font-weight: bold;
 }
 
 h4 {
@@ -760,9 +773,8 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+article {
+    margin: 10px 0;
 }
 
 .avatar {
@@ -1034,6 +1046,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    article {
+        margin: 50px 0;
     }
 }
 
