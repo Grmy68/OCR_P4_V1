@@ -517,7 +517,7 @@ button {
 }
 
 .scrollToTop span:hover {
-    color: #F3976C;
+    color: #565656;
 }
 
 .showScrollTop {
@@ -796,7 +796,7 @@ article {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #565656;
 }
 
 .tc-white {
@@ -805,7 +805,7 @@ article {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #565656;
     color: #FFFFFF!important;
 }
 
@@ -823,7 +823,7 @@ article {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #565656!important;
 }
 
 .ltc-atomic-tangerine:hover {
