@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+ul li {
+    list-style: none;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -412,7 +416,7 @@ button {
 }
 
 .scrollToTop span:hover {
-    color: #565656;
+    color: #363636;
 }
 
 .showScrollTop {
@@ -591,9 +595,10 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 10px auto auto auto;
+    margin: 25px auto auto auto;
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 h2 {
@@ -690,8 +695,8 @@ article {
     background-color: #FFFFFF;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #565656;
+.bgc-anthracite {
+    background-color: #363636;
 }
 
 .tc-white {
@@ -700,12 +705,12 @@ article {
 }
 
 .btn-atomic-tangerine {
-    background: #565656;
+    background: #363636;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: rgb(120, 120, 120)!important;
     color: #FFFFFF!important;
 }
 
@@ -718,7 +723,7 @@ article {
 }
 
 .ltc-atomic-tangerine {
-    color: #565656!important;
+    color: #363636!important;
 }
 
 .ltc-atomic-tangerine:hover {
