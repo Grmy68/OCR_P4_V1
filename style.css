@@ -114,7 +114,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -131,7 +130,6 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -468,6 +466,10 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: rgb(255, 255, 255);
+}
+.icon-md:hover {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .icon-lg {
