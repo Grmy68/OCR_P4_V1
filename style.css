@@ -170,8 +170,6 @@ ul li {
 }
 
 .navbar-brand {
-    width: 217px;
-    height: 40px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -183,6 +181,8 @@ ul li {
 .navbar-brand img {
     margin: 0 5px 0 0;
     display: inline;
+    width: 220px;
+    height: 40px;
 }
 
 .navbar .nav {
