@@ -21,7 +21,28 @@
     -moz-osx-font-smoothing: grayscale
 }
 
-.fa-lg {
+.fa-chevron-up:before {
+    content: "\f077"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+/* .fa-lg {
     font-size: 1.33333333em;
     line-height: .75em;
     vertical-align: -15%
@@ -670,9 +691,7 @@
     content: "\f076"
 }
 
-.fa-chevron-up:before {
-    content: "\f077"
-}
+
 
 .fa-chevron-down:before {
     content: "\f078"
@@ -800,14 +819,9 @@
     content: "\f098"
 }
 
-.fa-twitter:before {
-    content: "\f099"
-}
 
-.fa-facebook-f:before,
-.fa-facebook:before {
-    content: "\f09a"
-}
+
+
 
 .fa-github:before {
     content: "\f09b"
@@ -1576,9 +1590,7 @@
     content: "\f16c"
 }
 
-.fa-instagram:before {
-    content: "\f16d"
-}
+
 
 .fa-flickr:before {
     content: "\f16e"
@@ -1636,9 +1648,7 @@
     content: "\f17c"
 }
 
-.fa-dribbble:before {
-    content: "\f17d"
-}
+
 
 .fa-skype:before {
     content: "\f17e"
@@ -3042,4 +3052,4 @@
     margin: 0;
     overflow: visible;
     clip: auto
-}
+} */
