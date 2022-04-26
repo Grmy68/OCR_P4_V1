@@ -898,7 +898,7 @@ article {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 200px;
     }
     .nav-invert .navbar-header {
         float: none;
