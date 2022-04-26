@@ -64,7 +64,7 @@
 
 		<main role="main">
 			<!-- bloc-1-presentation -->
-			<section class="bloc bg-banniere bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero"
+			<section class="bloc bg-banniere-webp bg-banniere-jpg bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero"
 				role="region" aria-label="Presentation">
 				<div class="container bloc-lg">
 					<div class="tight-width-whitespace">
@@ -156,7 +156,7 @@
 			<!-- bloc-2-services END -->
 
 			<!-- bloc-3-what-i-do -->
-			<section class="bloc tc-white bg-presentation bloc-bg-texture texture-paper b-parallax"
+			<section class="bloc tc-white bg-presentation-webp bg-presentation-jpg bloc-bg-texture texture-paper b-parallax"
 				id="bloc-3-what-i-do" role="region" aria-label="Qui sommes-nous?">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace black-background">
@@ -205,9 +205,13 @@
 						</article>
 						<article class="col-sm-6">
 							<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
-								data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img
-									src="img/2.jpg" class="img-responsive portfolio-thumb"
-									alt="image d'une photographe" /></a>
+								data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+								<picture>
+									<source srcset="img/2.webp" type="image/webp">
+									<source srcset="img/2.jpg" type="image/jpg">
+									<img src="img/2.jpg" alt="image d'une photographe'" class="img-responsive portfolio-thumb" />
+								</picture>
+							</a>
 							<h3 class="mg-md text-center">
 								Création d'un site web pour photographes
 							</h3>
@@ -218,10 +222,13 @@
 					</div>
 					<div class="tight-width-whitespace">
 						<article class="col-sm-6">
-							<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1"
-								data-caption="Création d'un site internet pour un voyageur"
-								data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb"
-									alt="image de matériel audio et vidéo" /></a>
+							<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+								<picture>
+									<source srcset="img/3.webp" type="image/webp">
+									<source srcset="img/3.jpg" type="image/jpg">
+									<img src="img/3.jpg" alt="image de matériel audio et video" class="img-responsive portfolio-thumb" />
+								</picture>
+							</a>
 							<h3 class="mg-md text-center">
 								Création d'un site internet pour un voyageur
 							</h3>
@@ -233,8 +240,13 @@
 						<article class="col-sm-6">
 							<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1"
 								data-caption="Conception d'un site pour une agence de mariage"
-								data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb"
-									alt="image d'une personne travaillant sur ordinateur" /></a>
+								data-frame="snapshot-lb">
+								<picture>
+									<source srcset="img/4.webp" type="image/webp">
+									<source srcset="img/4.jpg" type="image/jpg">
+									<img src="img/4.jpg" alt="image d'une personne travaillant sur ordinateur" class="img-responsive portfolio-thumb" />
+								</picture>
+							</a>
 							<h3 class="mg-md text-center">
 								Conception d'un site pour une agence de mariage
 							</h3>
