@@ -723,20 +723,27 @@ article {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-banniere-webp {
-    background-image: url("img/agence-la-panthere.webp");
+/* Backgrounds images compatibility */
+@supports not (background-image: url("img/agence-la-panthere.webp")) {
+    .bg-banniere {
+        background-image: url("img/agence-la-panthere.jpg")
+    }
+}
+@supports (background-image: url("img/agence-la-panthere.webp")) {
+    .bg-banniere {
+        background-image: url("img/agence-la-panthere.webp")
+    }
 }
 
-.bg-banniere-jpg {
-    background-image: url("img/agence-la-panthere.jpg");
+@supports not (background-image: url("img/image-de-presentation.webp")) {
+    .bg-presentation {
+        background-image: url("img/image-de-presentation.jpg")
+    }
 }
-
-.bg-presentation-webp {
-    background-image: url("img/image-de-presentation.webp");
-}
-
-.bg-presentation-jpg {
-    background-image: url("img/image-de-presentation.jpg");
+@supports (background-image: url("img/image-de-presentation.webp")) {
+    .bg-presentation {
+        background-image: url("img/image-de-presentation.webp")
+    }
 }
 
 @media (max-width: 1024px) {
