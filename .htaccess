@@ -1,7 +1,7 @@
 # GZIP Apache 2.0
 # BEGIN GZIP
 SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml image/jpg image/jpeg image/webp font/woff font|woff2 application/x-javascript
 
 BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch ^Mozilla/4\.0[678] no-gzip
@@ -11,7 +11,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
-<FilesMatch "\.(ico|jpe?g|png|webp|gif|swf|css|gz)$">
+<FilesMatch "\.(ico|jpe?g|png|webp|gif|swf|css|gz|woff|woff2)$">
 Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
