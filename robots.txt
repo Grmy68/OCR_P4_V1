@@ -1,0 +1,5 @@
+User-agent:*
+Disallow: /contact.html
+
+#Site map URL
+Sitemap: https://grmy68.github.io/OCR_P4_V1/sitemap.xml
