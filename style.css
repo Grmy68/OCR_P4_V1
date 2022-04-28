@@ -557,7 +557,7 @@ p {
 
 .h1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .image-resize-mode {
@@ -678,6 +678,10 @@ article {
     background-color: #363636;
 }
 
+.bgc-dark-slate-blue {
+    background-color: #363636;
+}
+
 .tc-white {
     color: #ffffff!important;
     position: relative;
@@ -747,7 +751,8 @@ article {
 }
 @supports (background-image: url("img/agence-la-panthere.webp")) {
     .bg-banniere {
-        background-image: url("img/agence-la-panthere.webp")
+        background-image: url("img/agence-la-panthere.webp");
+        opacity: 1;
     }
 }
 
@@ -896,6 +901,7 @@ article {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
